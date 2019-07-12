@@ -74,6 +74,8 @@ std::vector<int> detectARTagIDs(std::vector<std::vector<cv::Point2f> >& corners,
 }
 
 
+
+
 cv::Point2f VectorAverage(std::vector<cv::Point2f>& corners){
     cv::Point2f average(0,0);
     for(auto i=0; i<corners.size(); i++)
